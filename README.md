@@ -31,5 +31,5 @@ Created as part of a learning exercise to practice semantic HTML, form controls,
 
 ##  Preview
 
-You can view the live version here: [🔗 GitHub Pages Link](https://your-username.github.io/food-survey/)  
-*(Replace with your actual GitHub Pages link)*
+You can view the live version here: [🔗 GitHub Pages Link](https://sdupsy.github.io/Survey-Project/)  
+
