@@ -1,0 +1,151 @@
+button {
+    cursor: pointer;
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #9ACBD0;
+    border-color: #006A71;
+    min-width: 300px;
+    color: #006A71;
+  }
+  
+  body {
+    background-image: url('https://img.freepik.com/free-photo/top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion_140725-72203.jpg?t=st=1744399099~exp=1744402699~hmac=cdfe80ce212cb74cc86b9fdbce2a26061e1f287d5918a591f0d846890f9f19f7&w=996');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #006A71;
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  .form-container {
+    background-color: rgba(242, 239, 231, 0.95);
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #48A6A7;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  legend {
+    padding-top: 20px
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #9ACBD0;
+    border: 1px solid #9ACBD0;
+    color: #F2EFE7;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .checkbox-group label {
+    flex: 1 1 40%;
+  }
+  
+  .small-input {
+    width: auto;
+    display: inline-block;
+    margin-left: 0.5em;
+    min-width: 100px;
+  }
+  
+  .other-label {
+    flex: 1 1 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .other-label input[type="text"] {
+    margin-left: 0.5em;
+  }
+  
+  select {
+    background-color: #9ACBD0;
+    color: #F2EFE7;
+    border: 1px solid #006A71;
+    padding: 0.5em;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  
+  input[type="text"]:hover,
+  input[type="email"]:hover,
+  input[type="number"]:hover,
+  textarea:hover,
+  select:hover,
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  textarea:focus,
+  select:focus {
+    background-color: #48A6A7;
+    color: #F2EFE7;
+    border-color: #006A71;
+    outline: none;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    accent-color: #006A71;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: pointer;
+  }
+  
+  .checkbox-group label:hover,
+  fieldset label:hover {
+    color: #48A6A7;
+    transition: color 0.2s ease-in-out;
+  }

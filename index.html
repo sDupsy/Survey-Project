@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 id="title">Food Survey</h1>
+      <p id="description">
+        Please fill out this food survey thaank you! :)
+      </p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name">Name
+            <input 
+            id="name" 
+            name="first-name" 
+            placeholder="Enter your Name"
+            type="text" 
+            required />
+          </label>
+          <label id="email-label" for="email">Email
+            <input 
+            id="email" 
+            name="email"
+            placeholder="Enter your Email" 
+            type="email" 
+            required />
+          </label>
+          <label id="number-label" for="number">
+            Age (optional) 
+            <input 
+            id="number" 
+            type="number" 
+            name="age"
+            placeholder="Enter your Age" 
+            min="13" 
+            max="120" />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Preferred</legend>
+          <label for="home-cooked">
+            <input 
+            id="home-cooked" 
+            type="radio" 
+            name="preferred" 
+            class="inline" 
+            checked /> Home Cooked
+          </label>
+          <label for="take-out">
+            <input 
+            id="take-out" 
+            type="radio" 
+            name="preferred" 
+            class="inline" /> Take out
+          </label>
+          <label for="restaurant">
+            <input 
+            id="restaurant" 
+            type="radio" 
+            name="preferred" 
+            class="inline" /> Restaurant
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Favorite Cuisine</legend>
+          <div class="checkbox-group">
+            <label for="greek">
+              <input class="inline" 
+              id="greek" 
+              type="checkbox" 
+              name="greek" 
+              value="greek" />
+              Greek 
+            </label>
+            <label for="italian">
+              <input class="inline" 
+              id="italian" 
+              type="checkbox" 
+              name="italian" 
+              value="italian" />
+              Italian 
+            </label>
+            <label for="mexican">
+              <input class="inline" 
+              id="mexican" 
+              type="checkbox" 
+              name="mexican" 
+              value="mexican" />
+              Mexican 
+            </label>
+            <label for="japanese">
+              <input class="inline" 
+              id="japanese" 
+              type="checkbox" 
+              name="japanese" 
+              value="japanese" />
+              Japanese
+            </label>
+            <label for="indian">
+              <input class="inline" 
+              id="indian" 
+              type="checkbox" 
+              name="indian" 
+              value="indian" />
+              Indian
+            </label>
+            <label for="other" class="other-label">
+              <input class="inline" 
+              id="other" 
+              type="checkbox" 
+              name="other" 
+              value="other" />
+              <input type="text" 
+              id="other-text" 
+              name="other-text" 
+              class="inline small-input" 
+              placeholder="Other" />
+              </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">Favorite Type of Dish
+            <select id="dropdown" name="dropdown">
+    <option value="">(select one)</option>
+    <optgroup label="Starters">
+      <option value="salad">Salad</option>
+      <option value="soup">Soup</option>
+    </optgroup>
+    <optgroup label="Main Courses">
+      <option value="pasta">Pasta</option>
+      <option value="grilled">Grilled Dishes</option>
+      <option value="baked">Baked Dishes</option>
+    </optgroup>
+    <optgroup label="Desserts">
+      <option value="sweet">Sweet</option>
+    </optgroup>
+  </select>
+          </label>
+          <label for="bio">Tell us your favorite dish:
+            <textarea 
+              id="bio" 
+              name="bio" 
+              rows="3" 
+              cols="30" 
+              placeholder="e.g. My grandma’s homemade lasagna <3">
+            </textarea>
+          </label>
+        </fieldset>
+        <button 
+        id="submit" 
+        type="submit">
+        Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
